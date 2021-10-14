@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./img/devilsBridge.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 0px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#restaurant, #addy, #open {
+  color: whitesmoke;
+}
+#addy, #open {
+text-shadow: 2px 2px black;
+}
+
+.card{
+  width: 18rem;
 }
