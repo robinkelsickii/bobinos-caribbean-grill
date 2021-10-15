@@ -1,15 +1,19 @@
-body {
+html, body {
+height: 100%; 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./img/devilsBridge.jpeg);
-background-size: 100%;
+background-image: url(./img/devilsBridge.jpeg);
+height: 100%;
+background-position: center;
 background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: 0px;
+background-size: cover;
+
+
+
 }
 
 code {
@@ -18,7 +22,7 @@ code {
 }
 
 #restaurant, #addy, #open {
-  color: whitesmoke;
+  color: #ffff00;
 }
 #addy, #open {
 text-shadow: 2px 2px black;
@@ -26,4 +30,9 @@ text-shadow: 2px 2px black;
 
 .card{
   width: 18rem;
+}
+
+#lunchMenu{
+  color: black;
+
 }

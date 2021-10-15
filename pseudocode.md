@@ -15,7 +15,7 @@
 - Use react to manage state 
 
 ### Classes (props and methods)
--Model (Page)
+-View (Page)
     - Page text
         - prop: restaurantName
         - prop: address
@@ -27,10 +27,13 @@
 
     - "Menu" spans across page.
     - cards in rows of 10 down the page.
-    
-### Model 
-    - Download Axios
+
+- Constructor(Page)
     -Axios call (dynamically render food items on page)
         - axios api:  https://port-3000-aincbootcampapi-ianrios529550.codeanyapp.com
-// create an array to hold random values from api call
+
+- model
+    -
+    
+    
 
